@@ -7,8 +7,7 @@ class Consumer:
     topic = 'flask'
 
     def listen(self):
-        consumer = KafkaConsumer(self.bootstrap_servers, value_serializer=lambda v: json.loads(v).encode('utf-8'))
+        consumer = KafkaConsumer(bootstrap_servers='localhost:9092', value_deserializer=lambda v: json.loads(v).encode('utf-8'), consumer_timeout_ms=10000)
         consumer.subscribe([self.topic])
-
         for message in consumer:
-            print(message)
+            pass

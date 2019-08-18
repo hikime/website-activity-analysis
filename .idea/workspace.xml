@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="70838bfb-d842-4a98-989c-738cf3ab80ec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/activity/controllers.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/activity/controllers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/stream/KafkaConsumer.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/stream/Consumer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/stream/KafkaProducer.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/stream/Producer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/stream/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/stream/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +28,7 @@
   <component name="ProjectId" id="1PLLTWQDsuUfQoAhJQvelI4fyYn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>

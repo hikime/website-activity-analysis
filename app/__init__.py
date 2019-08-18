@@ -1,4 +1,6 @@
 from flask import Flask
+import logging
+logging.basicConfig(level=logging.DEBUG)
 
 # Define the WSGI application object
 app = Flask(__name__)

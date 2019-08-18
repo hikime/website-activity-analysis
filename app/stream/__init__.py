@@ -1,2 +1,3 @@
-from .KafkaProducer import Producer
-from .KafkaConsumer import Consumer
+from .Producer import Producer
+from .Consumer import Consumer
+
